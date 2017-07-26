@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 26, 2017 | 3:19
+    Author     : Harshita
+    Place      : Gurgaon
+*/
+
+#landing{
+    background-color: darkcyan;
+}
+
+.cv-heading1{
+    font: 200px fantasy;
+    color: white;
+    text-align: center;
+}
+
+.gi-3x{
+    font-size: 5em;
+    color: white;
+    margin-left: 45%;
+    padding: 5%;
+}
+
+a.gi-3x:visited{
+    text-decoration: none;
+    color: white;
+}
+
+a.gi-3x:hover{
+    text-decoration: none;
+    color: red;
+}
+
+a.gi-3x:link{
+    text-decoration: none;
+    color: white;
+}
+
+#down_arrow{
+    transform: rotate(360deg);
+    animation: rotate 3s infinite;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.introduction_content{
+    color:  whitesmoke;
+    padding: 10%;
+    font: 20px fantasy;
+    margin: 50% 5% 0% 5%;
+}
+
+.nav-link > li > a{
+    font: 18px cursive;
+    margin: 2px;
+    border-radius: 8px;
+}
+
+.nav-link > li > a:hover{
+    color: whitesmoke;
+    background-color: darkcyan;
+}
+
